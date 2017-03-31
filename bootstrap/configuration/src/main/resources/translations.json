@@ -1,0 +1,250 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-banner-folder": "new banner folder",
+      "new-video-folder": "new video folder",
+      "new-banner-document": "new banner document",
+      "new-faq-item-folder": "new FAQ item folder",
+      "new-faq-list": "new FAQ list",
+      "new-news-document": "new news item",
+      "new-content-document": "new content document",
+      "new-resource-bundle": "new resource bundle",
+      "new-video-document": "new video",
+      "new-faq-item": "new FAQ item",
+      "new-news-folder": "new news item folder",
+      "new-untranslated-folder": "new untranslated folder",
+      "new-content-folder": "new content folder",
+      "new-faq-list-document-folder": "new FAQ list folder"
+    },
+    "nl":     {
+      "new-banner-folder": "nieuwe banner map",
+      "new-video-folder": "nieuwe videomap",
+      "new-banner-document": "nieuwe banner",
+      "new-faq-item-folder": "nieuwe FAQ item map",
+      "new-faq-list": "nieuwe FAQ lijst",
+      "new-news-document": "nieuw nieuwsbericht",
+      "new-content-document": "nieuw content document",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-video-document": "nieuwe video",
+      "new-faq-item": "nieuw FAQ item",
+      "new-news-folder": "nieuwe nieuwsmap",
+      "new-untranslated-folder": "nieuwe onvertaalde map",
+      "new-content-folder": "nieuwe contentmap",
+      "new-faq-list-document-folder": "nieuwe FAQ lijst map"
+    },
+    "de":     {
+      "new-banner-folder": "Neuer Banner-Ordner",
+      "new-video-folder": "Neuer Video-Ordner",
+      "new-banner-document": "Neues Banner",
+      "new-faq-item-folder": "Neues FAQ-Item-Ordner",
+      "new-faq-list": "Neue FAQ-Liste",
+      "new-news-document": "Neue News",
+      "new-content-document": "Neues Content-Document",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-video-document": "Neues Video",
+      "new-faq-item": "Neues FAQ-Item",
+      "new-news-folder": "Neuer News-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner",
+      "new-content-folder": "Neuer Content-Ordner",
+      "new-faq-list-document-folder": "Neuer FAQ-Listen-Ordner"
+    },
+    "fr":     {
+      "new-banner-folder": "nouveau dossier bannière",
+      "new-video-folder": "nouveau dossier vidéo",
+      "new-banner-document": "nouvelle bannière",
+      "new-faq-item-folder": "nouveau dossier élément FAQ",
+      "new-faq-list": "nouvelle liste FAQ",
+      "new-news-document": "nouveau message d'info",
+      "new-content-document": "nouveau document contenu",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-video-document": "nouvelle vidéo",
+      "new-faq-item": "nouvel élément FAQ",
+      "new-news-folder": "nouveau dossier messages d'info",
+      "new-untranslated-folder": "nouveau dossier non traduit",
+      "new-content-folder": "nouveau dossier contenu",
+      "new-faq-list-document-folder": "nouveau dossier liste FAQ"
+    }
+  },
+  "hippo:types":   {
+    "laputa:bannerdocument":     {
+      "en":       {
+        "laputa:content": "Content",
+        "laputa:title": "Title",
+        "jcr:name": "Banner",
+        "laputa:link": "Link",
+        "laputa:image": "Image"
+      },
+      "nl":       {
+        "laputa:content": "Inhoud",
+        "laputa:title": "Titel",
+        "jcr:name": "Banner",
+        "laputa:link": "Link",
+        "laputa:image": "Afbeelding"
+      },
+      "fr":       {
+        "laputa:content": "Contenu",
+        "laputa:title": "Titre",
+        "jcr:name": "Bannière",
+        "laputa:link": "Lien",
+        "laputa:image": "Image"
+      },
+      "de":       {
+        "laputa:content": "Inhalt",
+        "laputa:title": "Titel",
+        "jcr:name": "Banner",
+        "laputa:link": "Link",
+        "laputa:image": "Abbildung"
+      }
+    },
+    "laputa:faqitem":     {
+      "en":       {
+        "laputa:question": "Question",
+        "laputa:answer": "Answer",
+        "jcr:name": "FAQ Item"
+      },
+      "nl":       {
+        "laputa:question": "Vraag",
+        "laputa:answer": "Antwoord",
+        "jcr:name": "FAQ Item"
+      },
+      "fr":       {
+        "laputa:question": "Question",
+        "laputa:answer": "Réponse",
+        "jcr:name": "Élément de FAQ"
+      },
+      "de":       {
+        "laputa:question": "Frage",
+        "laputa:answer": "Antwort",
+        "jcr:name": "FAQ-Item"
+      }
+    },
+    "laputa:faqlist":     {
+      "en":       {
+        "laputa:title": "Title",
+        "laputa:description": "Description",
+        "jcr:name": "FAQ List",
+        "laputa:faqitem": "FAQ items"
+      },
+      "nl":       {
+        "laputa:title": "Titel",
+        "laputa:description": "Beschrijving",
+        "jcr:name": "FAQ Lijst",
+        "laputa:faqitem": "FAQ items"
+      },
+      "fr":       {
+        "laputa:title": "Titre",
+        "laputa:description": "Description",
+        "jcr:name": "Liste de FAQ",
+        "laputa:faqitem": "Éléments de FAQ"
+      },
+      "de":       {
+        "laputa:title": "Titel",
+        "laputa:description": "Beschreibung",
+        "jcr:name": "FAQ-Liste",
+        "laputa:faqitem": "FAQ-Items"
+      }
+    },
+    "laputa:newsdocument":     {
+      "en":       {
+        "laputa:content": "Content",
+        "laputa:title": "Title",
+        "jcr:name": "News Item",
+        "laputa:date": "Date",
+        "laputa:introduction": "Introduction",
+        "laputa:source": "Source",
+        "laputa:location": "Location",
+        "laputa:author": "Author",
+        "laputa:image": "Image"
+      },
+      "nl":       {
+        "laputa:content": "Inhoud",
+        "laputa:title": "Titel",
+        "jcr:name": "Nieuwsbericht",
+        "laputa:date": "Datum",
+        "laputa:introduction": "Introductie",
+        "laputa:source": "Bron",
+        "laputa:location": "Locatie",
+        "laputa:author": "Auteur",
+        "laputa:image": "Afbeelding"
+      },
+      "de":       {
+        "laputa:content": "Inhalt",
+        "laputa:title": "Titel",
+        "jcr:name": "News",
+        "laputa:date": "Datum",
+        "laputa:introduction": "Einführung",
+        "laputa:source": "Quelle",
+        "laputa:location": "Standort",
+        "laputa:author": "Verfasser",
+        "laputa:image": "Abbildung"
+      },
+      "fr":       {
+        "laputa:content": "Contenu",
+        "laputa:title": "Titre",
+        "jcr:name": "Message d'info",
+        "laputa:date": "Date",
+        "laputa:introduction": "Introduction",
+        "laputa:source": "Source",
+        "laputa:location": "Lieu",
+        "laputa:author": "Auteur",
+        "laputa:image": "Image"
+      }
+    },
+    "laputa:contentdocument":     {
+      "en":       {
+        "laputa:content": "Content",
+        "laputa:title": "Title",
+        "jcr:name": "Simple Document",
+        "laputa:publicationdate": "Publication date",
+        "laputa:introduction": "Introduction"
+      },
+      "nl":       {
+        "laputa:content": "Inhoud",
+        "laputa:title": "Titel",
+        "jcr:name": "Eenvoudig Document",
+        "laputa:publicationdate": "Publicatiedatum",
+        "laputa:introduction": "Introductie"
+      },
+      "fr":       {
+        "laputa:content": "Contenu",
+        "laputa:title": "Titre",
+        "jcr:name": "Document simple",
+        "laputa:publicationdate": "Date de publication",
+        "laputa:introduction": "Introduction"
+      },
+      "de":       {
+        "laputa:content": "Inhalt",
+        "laputa:title": "Titel",
+        "jcr:name": "Einfaches Dokument",
+        "laputa:publicationdate": "Publikationsdatum",
+        "laputa:introduction": "Einführung"
+      }
+    },
+    "laputa:video":     {
+      "en":       {
+        "laputa:title": "Title",
+        "laputa:description": "Description",
+        "jcr:name": "Video",
+        "laputa:link": "Video URL"
+      },
+      "nl":       {
+        "laputa:title": "Titel",
+        "laputa:description": "Beschrijving",
+        "jcr:name": "Video",
+        "laputa:link": "Video URL"
+      },
+      "fr":       {
+        "laputa:title": "Titre",
+        "laputa:description": "Description",
+        "jcr:name": "Vidéo",
+        "laputa:link": "URL vidéo"
+      },
+      "de":       {
+        "laputa:title": "Titel",
+        "laputa:description": "Beschreibung",
+        "jcr:name": "Video",
+        "laputa:link": "Video-URL"
+      }
+    }
+  }
+}

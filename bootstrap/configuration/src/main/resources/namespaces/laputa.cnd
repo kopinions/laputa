@@ -1,7 +1,27 @@
-<'laputa'='http://www.onehippo.org/laputa/nt/1.0'>
-<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'laputa'='http://www.onehippo.org/laputa/nt/1.0'>
 
-[laputa:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document orderable
+[laputa:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[laputa:bannerdocument] > hippostd:relaxed, hippotranslation:translated, laputa:basedocument
+  orderable
+
+[laputa:contentdocument] > hippostd:relaxed, hippotranslation:translated, laputa:basedocument
+  orderable
+
+[laputa:faqitem] > hippostd:relaxed, hippotranslation:translated, laputa:basedocument
+  orderable
+
+[laputa:faqlist] > hippostd:relaxed, hippotranslation:translated, laputa:basedocument
+  orderable
+
+[laputa:newsdocument] > hippostd:relaxed, hippotranslation:translated, laputa:basedocument
+  orderable
+
+[laputa:video] > hippostd:relaxed, hippotranslation:translated, laputa:basedocument
+  orderable
 
