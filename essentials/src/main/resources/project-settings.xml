@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+  <projectNamespace>laputa</projectNamespace>
+  <confirmParams>false</confirmParams>
+  <selectedProjectPackage>com.thoughtworks</selectedProjectPackage>
+  <selectedBeansPackage>com.thoughtworks.beans</selectedBeansPackage>
+  <selectedComponentsPackage>com.thoughtworks.components</selectedComponentsPackage>
+  <selectedRestPackage>com.thoughtworks.rest</selectedRestPackage>
+  <setupDone>false</setupDone>
+  <templateLanguage>freemarker</templateLanguage>
+  <useSamples>true</useSamples>
+  <extraTemplates>true</extraTemplates>
+</project>
